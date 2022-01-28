@@ -1,0 +1,98 @@
+.principal {
+    background-color: #EEE;
+    padding-bottom: 48px;
+}
+
+.principal__banner-parceria {
+    display: flex;
+    justify-content: start;
+
+}
+
+.banner-principal {
+    border-top: 80px solid transparent;
+    object-fit: cover;
+    width: 100%;
+    height: calc(100vh - 80px);
+
+}
+
+
+
+
+
+.titulo__post-principal {
+    font-family: 'Outfit', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    color: #FFFFFF;
+    position: absolute;
+    padding: 32px;
+    align-self: end;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.artigo {
+    margin: 0 10% 0 10%;
+}
+
+.artigo__titulo {
+    font-family: 'Outfit', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #04D932;
+    margin: 40px 0;
+    align-self: center;
+    text-align: center;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.artigo__texto {
+    text-indent: 3rem;
+    margin: 16px 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    color: #555;
+    align-self: center;
+    text-align: justify;
+
+}
+
+.historico__imagem {
+    object-fit: cover;
+    width: 100%;
+    margin: 16px 0;
+}
+
+@media screen and (min-width:1024px) {
+
+    .titulo__post-principal {
+        font-size: 48px
+    }
+
+    .artigo__titulo {
+        font-size: 60px;
+        margin: 80px 0;
+    }
+
+    .artigo__texto {
+        font-size: 24px;
+    }
+
+    .historico {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .historico__texto {
+        width: 47%;
+    }
+
+    .historico__imagem {
+        width: 50%;
+    }
+
+
+
+}

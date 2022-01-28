@@ -1,0 +1,25 @@
+.rodape {
+    display: flex;
+    width: calc(100% - 32px);
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: rgba(31, 222, 203, 0.97);
+    padding: 16px;
+}
+
+.empresas__titulo {
+    margin-top: 16px;
+    font-family: 'Righteous', cursive;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.rodape__logo-empresa {
+
+    width: 150px;
+    height: 100px;
+    max-width: 29%;
+    padding: 0 8px;
+    margin: 8px 0;
+}
